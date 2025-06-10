@@ -17,7 +17,8 @@
     },
     "files": [
         "README.md",
-        "tutorial.md"
+        "tutorial.md",
+        "tutorial3.md"
     ],
     "testFiles": [
         "test.ts"
