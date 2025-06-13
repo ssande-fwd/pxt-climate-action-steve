@@ -16,16 +16,16 @@ basic.forever(function () {
         fwdLights.ledRing1.setAllPixelsColor(0xff0000)
     }
     if (fwdSensors.moisture1.isPastThreshold(60, fwdEnums.OverUnder.Over)) {
-        fwdLights.ledRing1.setPixelColor(5, 0xff0000)
-        fwdLights.ledRing1.setPixelColor(4, 0xff0000)
+        fwdLights.ledRing1.setPixelColor(fwdLights.LEDRingPixels.Pixel6, 0xff0000)
+        fwdLights.ledRing1.setPixelColor(fwdLights.LEDRingPixels.Pixel5, 0xff0000)
     }
     if (fwdSensors.moisture1.isPastThreshold(40, fwdEnums.OverUnder.Over)) {
-        fwdLights.ledRing1.setPixelColor(3, 0xff0000)
-        fwdLights.ledRing1.setPixelColor(2, 0xff0000)
+        fwdLights.ledRing1.setPixelColor(fwdLights.LEDRingPixels.Pixel4, 0xff0000)
+        fwdLights.ledRing1.setPixelColor(fwdLights.LEDRingPixels.Pixel3, 0xff0000)
     }
     if (fwdSensors.moisture1.isPastThreshold(20, fwdEnums.OverUnder.Over)) {
-        fwdLights.ledRing1.setPixelColor(1, 0xff0000)
-        fwdLights.ledRing1.setPixelColor(0, 0xff0000)
+        fwdLights.ledRing1.setPixelColor(fwdLights.LEDRingPixels.Pixel2, 0xff0000)
+        fwdLights.ledRing1.setPixelColor(fwdLights.LEDRingPixels.Pixel1, 0xff0000)
     }
 })
 ```
