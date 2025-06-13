@@ -1,10 +1,13 @@
-# Tutorial
+# Final Code Test
 
 ```package
 pxt-climate-action=github:Forward-Education/pxt-climate-action#v1.0.1
 ```
 
-```blocks
+## Make It Go
+I guess we have to include some text here or it's a big blank box.
+
+```template
 basic.forever(function () {
     if (fwdSensors.moisture1.isPastThreshold(50, fwdEnums.OverUnder.Over)) {
         basic.showIcon(IconNames.Happy)
